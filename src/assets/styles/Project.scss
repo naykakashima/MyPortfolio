@@ -1,0 +1,91 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+  text-align: left;
+}
+
+.projects-container .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px; // smaller than 50px so cards don’t float too far apart
+}
+
+.projects-container .projects-grid .project {
+  position: relative; // needed for absolute positioning inside
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #000;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    color: #444;
+  }
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+}
+
+.flex-chips {
+  display: flex;
+  flex-wrap: wrap;  // allow chips to wrap on smaller screens
+  gap: 0.5rem;      // spacing between chips
+  align-items: center;
+}
+
+.github-icon {
+    position: absolute;
+    top: 1.9rem; // distance from bottom
+    right: 1rem;  // distance from right
+    color: #000;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: #555;
+    }
+}
+
+
+.project h2:hover {
+  text-decoration: underline;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+/* Optional zoom class (if you want scaling effect for images or extra elements) */
+.zoom {
+  border-radius: 5px;
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive layout */
+@media (max-width: 700px) {
+  .projects-container {
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .projects-container .projects-grid {
+    display: block;
+  }
+  
+  .projects-container .projects-grid .project {
+    margin-bottom: 1.5rem;
+  }
+}

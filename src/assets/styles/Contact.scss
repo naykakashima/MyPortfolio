@@ -1,0 +1,20 @@
+.github-icon {
+  position: absolute;
+  bottom: 1rem; 
+  right: 1rem;
+  color: #000;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #555;
+  }
+
+  svg {
+    font-size: 1.5rem; // smaller than "large" if needed
+  }
+}
+
+.projects-container .projects-grid .project button {
+  font-size: 0.9rem;  // smaller button text
+  padding: 0.4rem 0.8rem;
+}
