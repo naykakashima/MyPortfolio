@@ -46,7 +46,7 @@ function ContactCards() {
             variant="contained" 
             size="small" 
             href="../assets/Resume.pdf"
-            download
+            download={true}
           >
             Download
           </Button>
