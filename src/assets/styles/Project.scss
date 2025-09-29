@@ -37,6 +37,15 @@
   }
 }
 
+.projects-container .project p a {
+  color: #000;        // black color
+  text-decoration: underline; // optional, helps visibility
+}
+
+.projects-container .project p a:hover {
+  color: #333;        // slightly darker on hover
+}
+
 .flex-chips {
   display: flex;
   flex-wrap: wrap;  // allow chips to wrap on smaller screens
