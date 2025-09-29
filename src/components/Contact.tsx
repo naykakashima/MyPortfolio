@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 
 function ContactCards() {
   return (
-    <div className="projects-container" id="contact-cards">
+    <div className="projects-container" id="contact">
       <h1>Contact</h1>
       <div className="projects-grid">
         
@@ -45,8 +45,8 @@ function ContactCards() {
           <Button 
             variant="contained" 
             size="small" 
-            href="../assets/Resume.pdf"
-            download={true}
+            href="/Resume.pdf"
+            download
           >
             Download
           </Button>

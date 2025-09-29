@@ -1,0 +1,59 @@
+.education-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 2%; // wider section
+  text-align: left;
+  width: 100%;
+}
+
+#education > h1 {
+  width: 100%;
+  max-width: 1200px;        // same as card
+  margin: 0 auto 1rem auto; /* reduce bottom margin from 2rem to 1rem */
+  text-align: left;          // align with card content
+}
+
+
+.education-grid {
+  display: flex;
+  justify-content: center; // center horizontally
+  width: 100%;
+}
+
+.education-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  width: 100%;
+  max-width: 1200px; // wider card for fuller section
+  margin: 0 auto;    // center horizontally
+
+  h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #000;
+  }
+
+  p {
+    margin-bottom: 0.8rem;
+    color: #444;
+  }
+
+  h3 {
+    color: #000; // force black
+    margin-bottom: 0.5rem;
+  }
+
+  .flex-chips {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .edu-icon {
+    color: #000; 
+    margin-right: 0.5rem;
+  }
+}
