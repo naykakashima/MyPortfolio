@@ -23,7 +23,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">SWE Intern @ JPMorgan Chase</h3>
             <h4 className="vertical-timeline-element-subtitle">Glasgow, Scotland</h4>
             <p>
-              Incoming Summer 2026
+              Summer 2026
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
