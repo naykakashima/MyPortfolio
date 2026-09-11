@@ -1,78 +1,45 @@
-import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
-import '../assets/styles/Education.scss';
-
-const IS1Details = [
-  "International Stage One (IS1) — April 2024 to September 2024",
-  "Completed foundational Computing coursework at International College Dundee to progress directly into Year 2",
-  "Progressed with a First-Class Overall Grade"
-];
-
-
-const Year2Modules = [
-  "Employability for Computing Professionals",
-  "Introduction to Artificial Intelligence and Machine Learning (ML)",
-  "Multi-Paradigm Programming",
-  "Operating Systems",
-  "Software Engineering",
-  "Database Systems",
-  "Modern Web Stack Development",
-  "User Interface Design "
-];
-
-const Year3Modules = [
-  "Information and Network Security",
-  "Data Visualisation Analytics",
-  "Mobile App Development",
-  "Industrial Team Project"
-];
-
-function Education() {
+export default function Education() {
   return (
-    <div className="container" id="education">
-        <h1>Education</h1>
-      <div className="education-container">
-        <div className="education-grid">
-            <div className="education-card">
-                <h2>
-                <FontAwesomeIcon icon={faGraduationCap} size="1x" className="edu-icon" />
-                University of Dundee, Dundee, Scotland
-                </h2>
-                <p>BSc (Hons) Computer Science: Data Science and AI — Expected 2027</p>
-                <p>Predicted First-Class Honours (Grade Band A5 / 19 on 23-point Scottish scale)</p>
-
-            <div className="education-section">
-              <h3>International Stage One (IS1)</h3>
-              <ul>
-                {IS1Details.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="education-section">
-              <h3>2nd Year Modules</h3>
-              <ul>
-                {Year2Modules.map((mod, index) => (
-                  <li key={index}>{mod}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="education-section">
-              <h3>3rd Year Modules</h3>
-              <ul>
-                {Year3Modules.map((mod, index) => (
-                  <li key={index}>{mod}</li>
-                ))}
-              </ul>
-            </div>
+    <section id="education">
+      <div className="sec-head reveal">
+        <div>
+          <div className="label">Academics</div>
+          <h2>Education</h2>
+        </div>
+        <div className="count">2024 — 2027</div>
+      </div>
+      <div className="edu reveal">
+        <div className="edu-main">
+          <div className="deg">
+            BSc (Hons) Computer Science
+            <br />
+            Data Science and AI
+          </div>
+          <div className="uni">University of Dundee</div>
+          <div className="loc">DUNDEE, SCOTLAND · EXPECTED 2027</div>
+          <p>
+            Specialising in Data Science and AI, on a strong foundation in
+            object-oriented programming, data structures, and algorithms.
+            Currently extending into cloud infrastructure and applied AI
+            tooling.
+          </p>
+        </div>
+        <div className="edu-side">
+          <div className="edu-stat">
+            <b>On track for a First</b>
+            <span>Predicted honours</span>
+            <small>Grade Band A5 — 19 on the 23-point Scottish scale.</small>
+          </div>
+          <div className="edu-stat">
+            <b>Secretary</b>
+            <span>Dundee University Computing Society</span>
+            <small>
+              Coordinated hackathons partnered with BlackRock and NCR Atleos,
+              reaching 100+ students.
+            </small>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
-
-export default Education;
