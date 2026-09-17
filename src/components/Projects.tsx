@@ -14,7 +14,7 @@ export default function Projects() {
           <div className="feat-head">
             <div className="feat-tag">
               <span>GovTech</span>
-              <i>Co-founder</i>
+              <i>Co-founded</i>
             </div>
             <h3>
               <a

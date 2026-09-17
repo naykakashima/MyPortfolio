@@ -60,7 +60,9 @@ export default function Footer() {
           >
             GitHub
           </a>
-          <a href="#">CV</a>
+          <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+            CV
+          </a>
         </span>
       </div>
     </footer>
