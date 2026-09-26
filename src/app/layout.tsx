@@ -16,7 +16,7 @@ const instrumentSans = Instrument_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Kay Nakashima — Software Engineer",
+  title: "Kay's Portfolio",
   description:
     "Final-year Computer Science student at Dundee, shipping software with real stakes.",
   icons: {
