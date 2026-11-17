@@ -79,7 +79,6 @@ export default function Projects() {
 
       <div className="more reveal">
         <div className="more-item">
-          <div className="cat">Observability · Team Lead</div>
           <h4>Log Aggregation &amp; Diagnostics Platform</h4>
           <p>
             Industrial team project for NCR Atleos. A full-stack observability
@@ -91,7 +90,6 @@ export default function Projects() {
         </div>
 
         <div className="more-item">
-          <div className="cat">SaaS</div>
           <h4>
             <a
               href="https://clear-pie.vercel.app"
@@ -118,7 +116,6 @@ export default function Projects() {
         </div>
 
         <div className="more-item">
-          <div className="cat">Marketplace</div>
           <h4>
             <a
               href="https://termstow.vercel.app"
@@ -144,7 +141,6 @@ export default function Projects() {
         </div>
 
         <div className="more-item">
-          <div className="cat">Tool</div>
           <h4>
             <a
               href="https://uod-calendar.vercel.app"
