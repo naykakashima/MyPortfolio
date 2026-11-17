@@ -27,10 +27,6 @@ export default function Projects() {
           </div>
           <div className="feat-numbers">
             <div>
-              <b>RAG</b>
-              <span>Pipeline built</span>
-            </div>
-            <div>
               <b>2× Winner (team)</b>
               <span>Venture 2026 &amp; Scottish Young EDGE</span>
             </div>
