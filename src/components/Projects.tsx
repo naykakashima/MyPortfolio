@@ -18,12 +18,11 @@ export default function Projects() {
             </div>
             <h3>Sendix AI</h3>
             <p className="feat-lede">
-              Early technical contributor of Sendix AI Ltd., a B2B GovTech SaaS
-              automating compliance workflows for UK local authorities. I built
-              a RAG pipeline using Pinecone and Azure AI embeddings for
-              automated document intelligence, integrating the Wonde API for
-              secure school data access. Part of the student team that won
-              Venture 2026 and Scottish Young EDGE.
+              Early technical contributor to a GovTech compliance platform for
+              UK local authorities. I built a RAG pipeline (Pinecone, Azure AI
+              embeddings) for automated document intelligence, integrating the
+              Wonde API for secure school data access. Part of the student team
+              that won Venture 2026 and Scottish Young EDGE.
             </p>
           </div>
           <div className="feat-numbers">
