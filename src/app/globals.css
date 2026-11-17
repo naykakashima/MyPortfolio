@@ -549,6 +549,9 @@ section {
   background: var(--panel);
   padding: 24px 38px;
 }
+.feat-numbers div:only-child {
+  grid-column: 1 / -1;
+}
 .feat-numbers b {
   font-family: var(--serif, "Instrument Serif", serif);
   font-style: italic;

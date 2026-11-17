@@ -14,43 +14,27 @@ export default function Projects() {
           <div className="feat-head">
             <div className="feat-tag">
               <span>GovTech</span>
-              <i>Co-founded</i>
+              <i>Early technical contributor</i>
             </div>
-            <h3>
-              <a
-                href="https://sendix.ai"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sendix AI
-              </a>
-            </h3>
+            <h3>Sendix AI</h3>
             <p className="feat-lede">
-              A statutory SEND compliance platform for UK schools and local
-              authorities. EHCP plans are written in vague language that fails
-              at tribunal — Sendix turns that into specific, quantified,
-              evidence-linked provision before a bundle is ever submitted.
+              Early technical contributor to a GovTech compliance platform for
+              UK local authorities. I built a RAG pipeline (Pinecone, Azure AI
+              embeddings) for automated document intelligence, integrating the
+              Wonde API for secure school data access. Part of the student team
+              that won Venture 2026 and Scottish Young EDGE.
             </p>
           </div>
           <div className="feat-numbers">
             <div>
-              <b>£22,500</b>
-              <span>Funding raised</span>
-            </div>
-            <div>
-              <b>3</b>
-              <span>Venture awards won</span>
+              <b>2× Winner (team)</b>
+              <span>Venture 2026 &amp; Scottish Young EDGE</span>
             </div>
           </div>
           <div className="feat-foot">
-            <a
-              className="feat-link"
-              href="https://sendix.ai"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visit sendix.ai ↗
-            </a>
+            <span className="feat-link">
+              Next.js · TypeScript · Azure OpenAI
+            </span>
           </div>
         </div>
 
@@ -95,7 +79,6 @@ export default function Projects() {
 
       <div className="more reveal">
         <div className="more-item">
-          <div className="cat">Observability · Team Lead</div>
           <h4>Log Aggregation &amp; Diagnostics Platform</h4>
           <p>
             Industrial team project for NCR Atleos. A full-stack observability
@@ -107,7 +90,6 @@ export default function Projects() {
         </div>
 
         <div className="more-item">
-          <div className="cat">SaaS</div>
           <h4>
             <a
               href="https://clear-pie.vercel.app"
@@ -134,7 +116,6 @@ export default function Projects() {
         </div>
 
         <div className="more-item">
-          <div className="cat">Marketplace</div>
           <h4>
             <a
               href="https://termstow.vercel.app"
@@ -160,7 +141,6 @@ export default function Projects() {
         </div>
 
         <div className="more-item">
-          <div className="cat">Tool</div>
           <h4>
             <a
               href="https://uod-calendar.vercel.app"
