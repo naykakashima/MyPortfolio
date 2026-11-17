@@ -60,7 +60,7 @@ export default function Footer() {
           >
             GitHub
           </a>
-          <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/Kay's_Resume.pdf" target="_blank" rel="noopener noreferrer">
             CV
           </a>
         </span>
