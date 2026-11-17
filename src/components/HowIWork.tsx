@@ -21,7 +21,7 @@ const states = [
   {
     i: 3,
     h3: "And I keep shipping outside the job.",
-    p: "Sendix AI raised £22,500 across three venture awards. SurveyBuilder.Blazor exists because the C# ecosystem had no free native option, and now sits at 2.6K downloads. Adoption is the only metric that means anything.",
+    p: "As an early technical contributor at Sendix AI, I built a RAG pipeline on Pinecone and Azure AI embeddings for automated document intelligence. SurveyBuilder.Blazor exists because the C# ecosystem had no free native option, and now sits at 2.6K downloads. Adoption is the only metric that means anything.",
   },
 ];
 
@@ -51,10 +51,7 @@ const cards = [
     i: 2,
     co: "Built on my own",
     time: "2025 — present",
-    stats: [
-      { val: "£22,500", label: "Raised for Sendix AI" },
-      { val: "2.6K", label: "SurveyBuilder downloads" },
-    ],
+    stats: [{ val: "2.6K", label: "SurveyBuilder downloads" }],
   },
 ];
 

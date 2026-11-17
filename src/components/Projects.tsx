@@ -14,43 +14,32 @@ export default function Projects() {
           <div className="feat-head">
             <div className="feat-tag">
               <span>GovTech</span>
-              <i>Co-founded</i>
+              <i>Early technical contributor</i>
             </div>
-            <h3>
-              <a
-                href="https://sendix.ai"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sendix AI
-              </a>
-            </h3>
+            <h3>Sendix AI</h3>
             <p className="feat-lede">
-              A statutory SEND compliance platform for UK schools and local
-              authorities. EHCP plans are written in vague language that fails
-              at tribunal — Sendix turns that into specific, quantified,
-              evidence-linked provision before a bundle is ever submitted.
+              Early technical contributor of Sendix AI Ltd., a B2B GovTech SaaS
+              automating compliance workflows for UK local authorities. I built
+              a RAG pipeline using Pinecone and Azure AI embeddings for
+              automated document intelligence, integrating the Wonde API for
+              secure school data access. Part of the student team that won
+              Venture 2026 and Scottish Young EDGE.
             </p>
           </div>
           <div className="feat-numbers">
             <div>
-              <b>£22,500</b>
-              <span>Funding raised</span>
+              <b>RAG</b>
+              <span>Pipeline built</span>
             </div>
             <div>
-              <b>3</b>
-              <span>Venture awards won</span>
+              <b>2× Winner (team)</b>
+              <span>Venture 2026 &amp; Scottish Young EDGE</span>
             </div>
           </div>
           <div className="feat-foot">
-            <a
-              className="feat-link"
-              href="https://sendix.ai"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visit sendix.ai ↗
-            </a>
+            <span className="feat-link">
+              Next.js · TypeScript · Azure OpenAI
+            </span>
           </div>
         </div>
 
